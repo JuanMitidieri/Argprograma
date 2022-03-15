@@ -1,0 +1,251 @@
+body{
+ background-color: aliceblue;
+}
+
+
+header{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(11, 190, 235);  
+}
+nav{
+    background-color:rgb(11, 190, 235);
+    align-items: center;
+    border-color: black;
+    border-width: 2px;
+}
+.margenizq{
+    display: flex;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+   }
+   .nav-item  {
+    position: relative;
+    top: 18px;
+    right: 30px;
+   }
+   .btn  {
+    position: relative;
+    top: 14px;
+    left: 5px;
+   }
+   .tituloarg{
+       align-items: center;
+       display: flex;  
+       color: black;
+       text-shadow: 12px;     
+   }
+   .argentinaimagen  {
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+   }
+   
+
+  .section{
+      width: 100%;
+      height: 525px;
+      background-color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+
+  }
+
+  .box{
+    
+  width: 33.3%;
+  height: 50vh;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin: 1%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+
+     }
+
+
+ .box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+
+ .box .hover{
+width: 0%;
+height: 50vh;
+background-color: rgb(54, 54, 54, 0.7);
+position: absolute;
+top: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+transition: 0.6s all;
+ }
+
+.tituloimagen{
+  font-size: 2em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:aliceblue;
+}
+
+.descripcionimagen{
+    color:aliceblue;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.25em;
+    font-family: "Quicksand", sans-serif;
+    }
+
+.box:hover .hover{
+  width: 100%;
+
+
+}
+
+.acercade{
+  height:270px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  display:flex;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: white;
+
+}
+
+.imagenyo{
+ 
+height: 230px;
+width: 140px;
+border-radius: 25px;
+margin-right: 25px;
+
+}
+
+
+.divnombreydescripcion{
+ height: 100px;
+ width: 1000px;
+ padding: 10px;
+ margin-right: 20px;
+ font: 1.2em arial black;
+ margin-top:  10px;
+}
+
+.divdescripcion{
+  padding: 5px;
+  font: 1.5em arial;
+  width: 1300px;
+  height: 100px;
+  
+  }
+
+.divdescripcion A:link {text-decoration: none }
+.divdescripcion img {
+  height: 40px;
+  border: 0;
+  box-shadow: inset 0 -3px 0 0 #bdb;
+}
+
+.divimagenunlp{
+    margin-left: 450px;
+}
+
+
+.divimagenunlp img  {
+  height: 85px; 
+}
+
+.expyedu {
+  margin-left: 50px;
+  height:700px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: white;
+
+}
+.tituloexp {
+  
+}
+.tituloexp h1 {
+  font: 2.5em arial black;
+}
+.tituloexp h2{
+  margin-top: 5px;
+  font: 2.5em;
+}
+
+.experienciayed{
+  display:flex;
+  margin-left: 50px;
+   }
+
+.imagenriva{
+height: 130px;
+width: 100px;
+border-radius: 25px;
+margin-right: 15px;
+}
+
+ .divdescripcionexp{
+  height: 100px;
+  padding: 10px;
+  font: 1.5em arial;
+  margin-right: 20px;
+  }
+
+  .divaños {
+  font-size: 20px;
+  color: grey;
+  }
+
+  .tituloedu {
+    margin-top: 100px;
+  
+  }
+  .tituloexp h1 {
+    font: 2.5em arial black;
+  }
+  .tituloexp h2{
+    margin-top: 5px;
+    font: 2.5em;
+  }
+  
+  .experienciayed{
+    display:flex;
+    margin-left: 50px;
+     }
+  
+  .imagenriva{
+  height: 130px;
+  width: 100px;
+  border-radius: 25px;
+  margin-right: 15px;
+  }
+  
+   .divdescripcionexp{
+    height: 100px;
+    padding: 10px;
+    font: 1.5em arial;
+    margin-right: 20px;
+    }
+  
+    .divaños {
+    font-size: 20px;
+    color: grey;
+    }
+  
+
